@@ -1,0 +1,80 @@
+body {background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    background-color: white;
+    width: 408px; 
+    height: 561px;
+    margin:auto; 
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.post-header{
+    display: flex;
+    width: 411px;
+    height: 52px;
+}
+
+.post-image {
+    display: flex;
+    width: 430px;
+    height: 306px;
+}
+
+img{
+    width: 408px;
+    height: 306px;
+}
+
+.post-body{
+    width: 411px;
+    height: 200px;
+}
+
+.imghtml{
+    display: flex;
+    align-items: center;
+    margin-left: 11px;
+    font-size:x-large;
+}
+
+.titulo {
+    display: flex;
+    font-size:small;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.imgboton{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 390px;
+    font-size:xx-large;
+}
+
+.post-icons {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size:xx-large;
+    column-count: 3; 
+    column-gap: 20px;
+}
+
+.post-bookmark {
+    display: flex;
+    margin-left:355px;
+    margin-top: -33px;
+    font-size:xx-large;
+    column-count: 1; 
+    column-gap: 20px;
+    position: inherit;
+}
+
+.likes {
+margin-left: 15px;
+margin-right: 20px;
+font-size: small;
+}
